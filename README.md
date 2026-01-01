@@ -1,4 +1,4 @@
-Real-Time Sign Language Translator
+*Real-Time Sign Language Translator*
 Overview
 
 This project is a computer vision–based real-time sign language translator designed to bridge the communication gap between sign language users and non-signers. It recognizes hand gestures using a webcam and converts them into readable text in real time.
