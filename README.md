@@ -1,64 +1,77 @@
-*Real-Time Sign Language Translator*
-Overview
+Here’s your content rewritten in **clean, professional GitHub README.md markdown format**, ready to paste directly into the GitHub editor.
 
-This project is a computer vision–based real-time sign language translator designed to bridge the communication gap between sign language users and non-signers. It recognizes hand gestures using a webcam and converts them into readable text in real time.
+---
 
-Problem Statement
+# Real-Time Sign Language Translator
 
-Communication between sign language users and non-signers is limited due to the lack of accessible and real-time translation tools that work with standard cameras and devices.
+## Overview
 
-Solution
+This project is a computer vision–based **real-time sign language translator** designed to bridge the communication gap between sign language users and non-signers. It uses a webcam to recognize hand gestures and converts them into readable text in real time.
 
-A real-time sign language recognition system built using computer vision and deep learning that detects hand landmarks, classifies gestures, and displays the corresponding text output.
+---
 
-Dataset Used
+## Problem Statement
 
-Dataset Name: ASL Alphabet Dataset
+Communication between sign language users and non-signers is limited due to the lack of accessible, real-time translation tools that work reliably with standard cameras and devices.
 
-Source: Kaggle
+---
 
-Link: https://www.kaggle.com/datasets/grassknoted/asl-alphabet
+## Solution
 
-Only hand landmark coordinates extracted using MediaPipe are used for training (raw images are not included in this repository).
+A real-time sign language recognition system built using **computer vision and deep learning**. The system detects hand landmarks, classifies gestures, and displays the corresponding text output instantly.
 
-Technologies Used
-Computer Vision
+---
 
-OpenCV
+## Dataset Used
 
-MediaPipe Hands (21 hand landmarks)
+* **Dataset Name:** ASL Alphabet Dataset
+* **Source:** Kaggle
+* **Link:** [https://www.kaggle.com/datasets/grassknoted/asl-alphabet](https://www.kaggle.com/datasets/grassknoted/asl-alphabet)
 
-Deep Learning
+Only **hand landmark coordinates extracted using MediaPipe** are used for training.
+Raw image data is **not included** in this repository.
 
-TensorFlow / Keras
+---
 
-Multilayer Perceptron (MLP)
+## Technologies Used
 
-Programming Language
+### Computer Vision
 
-Python 3
+* OpenCV
+* MediaPipe Hands (21 hand landmarks)
 
-Model Architecture
+### Deep Learning
 
-Input: 63 features (21 hand landmarks × x, y, z)
+* TensorFlow / Keras
+* Multilayer Perceptron (MLP)
 
-Fully Connected (Dense) Layers
+### Programming Language
 
-ReLU activation
+* Python 3
 
-Softmax output layer for classification
+---
 
-Optimizer: Adam
+## Model Architecture
 
-Loss Function: Categorical Crossentropy
+* **Input:** 63 features (21 hand landmarks × x, y, z)
+* Fully Connected (Dense) layers
+* ReLU activation
+* Softmax output layer for classification
+* **Optimizer:** Adam
+* **Loss Function:** Categorical Crossentropy
 
-Evaluation Metrics
+---
 
-Classification Accuracy
+## Evaluation Metrics
 
-Real-time prediction consistency during webcam inference
+* Classification accuracy
+* Real-time prediction consistency during webcam inference
 
-Project Structure
+---
+
+## Project Structure
+
+```
 sign-language-translator/
 │
 ├── scripts/
@@ -78,3 +91,26 @@ sign-language-translator/
 │
 ├── requirements.txt
 ├── README.md
+```
+
+---
+
+## Applications
+
+* Inclusive communication
+* Educational tools
+* Accessibility platforms
+* Customer service kiosks
+
+---
+
+## License
+
+This project is intended for **educational and academic purposes**.
+
+---
+
+* add **Installation & Run Instructions**
+* rewrite it in **more technical / more human** tone
+
+Just say which one.
