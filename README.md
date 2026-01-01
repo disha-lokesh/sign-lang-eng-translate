@@ -1,4 +1,3 @@
-Here’s your content rewritten in **clean, professional GitHub README.md markdown format**, ready to paste directly into the GitHub editor.
 
 ---
 
@@ -110,7 +109,3 @@ This project is intended for **educational and academic purposes**.
 
 ---
 
-* add **Installation & Run Instructions**
-* rewrite it in **more technical / more human** tone
-
-Just say which one.
